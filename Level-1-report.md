@@ -26,10 +26,6 @@ Level 1:
 
 
 ----------
-## TASK 2: AWS Dynomo DB 
-
-
-
 
 ## TASK 3: Application on EC2 instance
 I've used a virtual machine provisioned within  AWS Elastic Compute Cloud {EC2} ecosystem to host a Jenkins instance for CI & CD automation.
@@ -47,7 +43,9 @@ This Deployment utilizes a IAAS model
 ![Image4](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202025-10-30%20233834.png?raw=true)
 
 ---------------------------
-## TASK 4: AWS CloudFront - Serve content from multiple S3 buckets
+
+## TASK 2 & TASK 4: AWS CloudFront & Dynomo DB 
+
 
 
 
@@ -79,6 +77,8 @@ Social Engineering Attacks:
 
 ![Socket.io](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-01-31%20175347.png?raw=true)
 
+![Socket io](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010554.png)
+
 ## TASK 7: OSI
 
 The OSI reference model
@@ -91,7 +91,13 @@ The OSI model is used to connect to the open systems—these are the systems tha
 [![saas, paas, iaas](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/OIP.jpg)](https://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples)
 
 
+## TASK 9: 
 
+
+## TASK 10: WEB SCRAPPING
+Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet. Beautiful Soup is a useful tool in your web scraping toolkit, allowing you to conveniently extract specific information from HTML, even from complex static websites.
+
+![webscraping](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20015742.png)
 
 
 
