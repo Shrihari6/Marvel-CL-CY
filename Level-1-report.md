@@ -81,9 +81,14 @@ Social Engineering Attacks:
 
 ## TASK 7: OSI
 
+The OSI reference model
+The OSI model is used to connect to the open systems—these are the systems that are open and communicate with other systems. By using this model, we do not depend on an operating system anymore, so we are allowed to communicate with any operating system on any computer. This model contains seven layers, where each layer has a specific function and defines the way data is handled on certain different layers. The seven layers that are contained in this model are the Physical layer, Data Link layer, Network layer, Transport layer, Session layer, Presentation layer, and the Application layer.
+
+![osi](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20011317.png)
+
 ## TASK 8: IaaS, PaaS and SaaS
 
-
+[![saas, paas, iaas](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/OIP.jpg)](https://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples)
 
 
 
