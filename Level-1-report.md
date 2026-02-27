@@ -91,8 +91,27 @@ The OSI model is used to connect to the open systems—these are the systems tha
 [![saas, paas, iaas](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/OIP.jpg)](https://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples)
 
 
-## TASK 9: 
+## TASK 9: Encrypted  Messaging - Chat App
+here am using PBKDF2 (Password-Based Key Derivation Function 2) it runs 100,000 iterations of hashing to turn a simple string into a cryptographically strong 256-bit key.
+it uses a "salt" (kernel-chat-salt) which ensures that even if two rooms have the same password, their final encryption keys will be different.
+The Encryption Algorithm (AES-256-GCM)
+This is the "gold standard" of encryption.
+AES-256, This is a symmetric-key algorithm used by governments and banks worldwide.
 
+GCM (Galois/Counter Mode) is the "Mode" of operation. Unlike older modes, GCM provides Authenticated Encryption.
+
+Integrity Check: GCM doesn't just hide the message; it also attaches a "tag." If someone tries to change even one bit of the encrypted data during transmission, the decryptMessage function will throw an error and refuse to show the message.
+also the IV (Initialization Vector) -Point to this line in your code: crypto.getRandomValues(new Uint8Array(12)).
+the IV is a unique "nonce" (number used once) for every single message.
+so if we send the word "Hello" five times in a row, the Encrypted Data seen in the network tab will look completely different every time because the IV changes.
+
+> This application uses End-to-End Encryption (E2EE). We derive a 256-bit key using PBKDF2 with 100k iterations. The actual encryption is AES-GCM, which ensures both Privacy (nobody can read it) and Integrity (nobody can alter it). As shown in the DevTools, the server only acts as a relay for raw ciphertext; it never possesses the keys to decrypt the traffic.
+
+
+The Conclusion: This proves that without the exact derived key, the data is mathematically useless.
+![enc](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20112348.png?raw=true)
+
+![enc-dev](
 
 ## TASK 10: WEB SCRAPPING
 Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet. Beautiful Soup is a useful tool in your web scraping toolkit, allowing you to conveniently extract specific information from HTML, even from complex static websites.
