@@ -46,7 +46,11 @@ This Deployment utilizes a IAAS model
 
 ## TASK 2 & TASK 4: AWS CloudFront & Dynomo DB 
 
+DynamoDB is a fully managed NoSQL database service. Unlike traditional databases (like MySQL) that use tables with strict rows and columns, DynamoDB is designed for high-performance applications that need to scale massively
 
+CloudFront is a Content Delivery Network (CDN). Its primary job is to speed up the distribution of your website’s content (like images, videos, or HTML files) to users across the globe.
+
+![cloudfront](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20122923.png?raw=true)
 
 
 
@@ -111,7 +115,7 @@ so if we send the word "Hello" five times in a row, the Encrypted Data seen in t
 The Conclusion: This proves that without the exact derived key, the data is mathematically useless.
 ![enc](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20112348.png?raw=true)
 
-![enc-dev](
+![enc-dev](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20113137.png?raw=true)
 
 ## TASK 10: WEB SCRAPPING
 Beautiful Soup is a Python library designed for parsing HTML and XML documents. It creates parse trees that make it straightforward to extract data from HTML documents you’ve scraped from the internet. Beautiful Soup is a useful tool in your web scraping toolkit, allowing you to conveniently extract specific information from HTML, even from complex static websites.
