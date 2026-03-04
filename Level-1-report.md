@@ -52,7 +52,9 @@ CloudFront is a Content Delivery Network (CDN). Its primary job is to speed up t
 
 ![cloudfront](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20122923.png?raw=true)
 
+![Dynomo DB](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010217.png?raw=true)
 
+![dynooDB](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/Screenshot%202026-02-27%20010112.png?raw=true)
 
 
 
