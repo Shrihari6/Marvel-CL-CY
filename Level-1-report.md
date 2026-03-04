@@ -92,6 +92,65 @@ The OSI model is used to connect to the open systems—these are the systems tha
 
 ## TASK 8: IaaS, PaaS and SaaS
 
+#### Infrastructure as a Service (IaaS)
+Provides virtualized computing resources like servers, storage, and networking
+Users have control over operating systems, applications, and storage.
+Examples: Amazon Web Services (AWS) EC2, Google Compute Engine, Microsoft Azure.
+Advantages:
+
+**Scalability: Easily scale up/down based on demand.**
+Cost-Effective: Pay only for what you use.
+Full Control: You manage OS, storage, deployed apps, etc.
+No Hardware Maintenance: Infrastructure is managed by the provider.
+Disadvantages:
+
+**Management Complexity: Requires skilled personnel to manage and configure.**
+Security: You're responsible for securing your own apps and data.
+Vendor Lock-in: Switching providers may be difficult.
+Applications:
+
+**Hosting websites or applications**
+Storage, backup, and recovery
+High-performance computing (HPC)
+Development and testing environments
+#### Platform as a Service (PaaS)
+Delivers a platform that allows developers to build, test, and deploy applications without managing the underlying infrastructure.
+Examples: Google App Engine, Microsoft Azure App Service, Heroku.
+Advantages:
+
+**Speed:** Quick development and deployment of apps.
+No OS Maintenance: Provider manages OS, runtime, and middleware.
+Built-in Tools: Database, DevOps, analytics, etc., are included.
+Disadvantages:
+
+**Limited Control:** Less control over underlying infrastructure.
+Vendor Lock-in: Custom features may not be portable.
+Runtime Restrictions: Limited to languages and frameworks supported by the provider.
+Applications:
+
+Application development frameworks
+Business analytics and intelligence
+API development and management
+
+#### Software as a Service (SaaS)
+Offers software applications over the internet on a subscription basis.
+Examples: Microsoft 365, Salesforce, Google Workspace.
+Advantages:
+
+**No Installation Needed:** Access via browser or app.
+Automatic Updates: Always up-to-date.
+Accessibility: Accessible from anywhere with internet.
+Disadvantages:
+
+**Limited Customization:** Can't tweak core functionality.
+Data Security: Sensitive data stored offsite.
+Dependency: You're at the mercy of the provider’s uptime and policies.
+Applications:
+
+Email, collaboration tools, CRM
+Document management
+Accounting and billing systems
+
 [![saas, paas, iaas](https://github.com/Shrihari6/Marvel-CL-CY/blob/DA_chatbot/marvel/OIP.jpg)](https://stackoverflow.com/questions/16820336/what-is-saas-paas-and-iaas-with-examples)
 
 
